@@ -391,6 +391,12 @@ a {
   }
 }
 
+@media (max-width: 480px) {
+  .start {
+    height: 95vh;
+  }
+}
+
 .start__inner {
   position: relative;
   z-index: 2;
