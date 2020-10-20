@@ -57,7 +57,7 @@
                             @endif
 
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                                <a class="header__link" href="{{ url('/') }}" itemprop="url">Тренеры</a>
+                                <a class="header__link" href="{{ url('/#treners') }}" itemprop="url">Тренеры</a>
                                 <meta itemprop="name" content="Тренеры" />
                             </li>
 
@@ -99,7 +99,7 @@
         </div>
 
 
-        <img src="{{ URL::asset('images/slide-7.jpg') }}" alt="" class="start__img">
+        <img src="{{ URL::asset('images/slide-7.jpg') }}" alt="энерджим" class="start__img">
 
     </div>
 
@@ -113,7 +113,7 @@
                     <h3 class="price__title">Утренний</h3>
 
                     <div class="price__wrapper">
-                        <img src="{{ URL::asset('images/abonement/1.jpg') }}" alt="" class="price__img">
+                        <img src="{{ URL::asset('images/abonement/1.jpg') }}" alt="energym" class="price__img">
                     </div>
 
                     <p class="price__description">Абонемент «утренний» <br> 12 занятий: с 10.00 до 17.00</p>
@@ -124,7 +124,7 @@
 
 
                     <div class="price__wrapper">
-                        <img src="{{ URL::asset('images/abonement/2.jpg') }}" alt="" class="price__img">
+                        <img src="{{ URL::asset('images/abonement/2.jpg') }}" alt="energym" class="price__img">
                     </div>
 
 
@@ -137,7 +137,7 @@
 
 
                     <div class="price__wrapper">
-                        <img src="{{ URL::asset('images/abonement/3.jpg') }}" alt="" class="price__img">
+                        <img src="{{ URL::asset('images/abonement/3.jpg') }}" alt="energym" class="price__img">
                     </div>
 
 
@@ -149,7 +149,7 @@
 
 
                     <div class="price__wrapper">
-                        <img src="{{ URL::asset('images/abonement/4.jpg') }}" alt="" class="price__img">
+                        <img src="{{ URL::asset('images/abonement/4.jpg') }}" alt="energym" class="price__img">
                     </div>
 
 
@@ -162,7 +162,7 @@
 
 
                     <div class="price__wrapper">
-                        <img src="{{ URL::asset('images/abonement/5.jpg') }}" alt="" class="price__img">
+                        <img src="{{ URL::asset('images/abonement/5.jpg') }}" alt="energym" class="price__img">
                     </div>
 
 
@@ -224,12 +224,12 @@
 
             </div>
         </div>
-        <img src="{{ URL::asset('images/women.jpg') }}" alt="" class="why__img">
+        <img src="{{ URL::asset('images/women.jpg') }}" alt="energym" class="why__img">
     </section>
 
 
     <section class="check">
-        <img src="{{ URL::asset('images/bg-2.jpg') }}" alt="" class="check__img">
+        <img src="{{ URL::asset('images/bg-2.jpg') }}" alt="energym" class="check__img">
         <div class="container">
             <div class="check__inner">
                 <h2 class="title title__light">
@@ -264,7 +264,7 @@
     </section>
 
 
-    <section class="treners">
+    <section class="treners" id="treners">
         <div class="container">
             <div class="treners__inner">
                 <h2 class="treners__title">Команда наших тренеров</h2>
@@ -444,6 +444,16 @@
         </div>
     </div>
 
+
+
+
+    <div class="action-popup">
+        <img src="{{ URL::asset('images/popup.jpg') }}" alt="" class="action-popup__img">
+
+        <a class="action-popup__close" href="#"><i class="fas fa-times action-popup__icon"></i></a>
+
+    </div>
+    <div class="action-popup__closer"></div>
 
 
 @endsection

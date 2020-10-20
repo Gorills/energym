@@ -37,29 +37,20 @@ $(".header__link").click(function(e) {
 })
 
 
-$('.show_popup').click(function(e) { // Вызываем функцию по нажатию на кнопку
-    e.preventDefault();
-    $('.popup').show(); // Открываем блок заднего фона
-    $('.overlay_popup').show(); // Открываем блок заднего фона
-})
-$('.overlay_popup').click(function() { // Обрабатываем клик по заднему фону
-    $('.overlay_popup, .popup').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно
-})
 
-$('.show_popup2').click(function(e) { // Вызываем функцию по нажатию на кнопку
-    e.preventDefault();
-    $('.popup2').show(); // Открываем блок заднего фона
-    $('.overlay_popup2').show(); // Открываем блок заднего фона
-})
-$('.overlay_popup2').click(function() { // Обрабатываем клик по заднему фону
-    $('.overlay_popup2, .popup2').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно
-})
 
-$(".header__item--dropdown").click(function(e) {
-    e.preventDefault();
-    $(".header__dropdown").toggleClass('header__dropdown--active');
+function explode(){
+    $('.action-popup').show();
+    $('.action-popup__closer').show();
 
-    $(".header__item").toggleClass('header__item--active');
+}
+setTimeout(explode, 10000);
+
+$(".action-popup__closer, .action-popup__close").click(function(e) {
+    e.preventDefault();
+    $(".action-popup__closer").hide();
+    $(".action-popup").hide();
+
 })
 
 

@@ -10,7 +10,7 @@
                     <p class="footer__desc">
                         Тренажерный зал в Томске
                     </p>
-                    <a href="tel:" class="footer__contacts"><i class="fas fa-phone"></i> +7 (3822) 321-070</a>
+                    <a href="tel:+7 (3822) 321-070" class="footer__contacts"><i class="fas fa-phone"></i> +7 (3822) 321-070</a>
                     <a href="#" class="footer__contacts"><i class="fas fa-map-pin"></i> ул. Елизаровых 33/1</a>
                 </div>
                 <div class="footer__column">
@@ -19,8 +19,10 @@
                         <ul class="footer__list">
                             <li class="footer__item"><a href="#" class="footer__link">Главная</a></li>
                             <li class="footer__item"><a href="#" class="footer__link">О нас</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Цены</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Тренеры</a></li>
+
+                            <li class="footer__item"><a href="{{url('/#price')}}" class="footer__link">Цены</a></li>
+
+                            <li class="footer__item"><a href="{{url('/#treners')}}" class="footer__link">Тренеры</a></li>
                             <li class="footer__item"><a href="#" class="footer__link">Галерея</a></li>
                             <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
                         </ul>
