@@ -1,0 +1,131 @@
+.treners
+    width: 100%
+    margin: 0 auto
+    padding: 120px 80px
+    overflow: hidden
+    // .treners__inner
+
+    &__inner
+        width: 100%
+        margin: 0 auto
+        text-align: center
+    // .treners__title
+
+    &__title
+        font-family: 'Blogger Sans', sans-serif
+        font-style: italic
+        font-size: 35px
+        color: $color-fonts-dark
+        margin-bottom: 20px
+        text-transform: uppercase
+    // .treners__subrirle
+
+    &__subrirle
+        font-style: italic
+        margin-bottom: 40px
+    // .treners__row
+
+    &__row
+        display: flex
+        justify-content: space-between
+    // .treners__item
+
+    &__item
+        position: relative
+        width: 100%
+        max-width: 397px
+
+
+        &:hover
+
+            .treners__wrap
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+
+                color: #fff
+                display: flex
+                align-items: center
+                flex-direction: column
+                justify-content: center
+                .treners__type
+                    color: #ffffff
+
+            .treners__social
+                position: absolute
+                top: 70%
+                opacity: 100%
+                left: 50%
+                transform: translateX(-50%)
+                height: fit-content
+                z-index: 2
+                color: #ffffff
+            .treners__desc
+
+                opacity: 100%
+                bottom: -20px
+            .treners__img
+                opacity: 20%
+
+    &__item + &__item
+        margin-left: 20px
+
+
+
+
+    // treners__img-wrap
+    &__img-wrap
+        background-color: #333333
+        position: relative
+        width: 100%
+        height: 537px
+        margin-bottom: 20px
+
+    // .treners__img
+    &__img
+        @include img-center
+        transition: $transition
+    // treners__wrap
+    &__wrap
+
+
+    // .treners__name
+
+    &__name
+        font-size: 18px
+        font-weight: 700
+    // .treners__type
+
+    &__type
+        font-style: italic
+        color: $color-fonts-gray
+    // .treners__social
+
+    &__social
+        display: flex
+        justify-content: space-between
+        width: 50%
+        margin: 0 auto
+        height: 0
+        opacity: 0
+        transition: $transition
+    // .treners__social-item
+
+    &__social-item
+        color: #ffffff
+        transition: $transition
+        font-size: 26px
+        &:hover
+            color: $accent-color
+
+    // .treners__desc
+
+    &__desc
+        transition: $transition
+        position: absolute
+        bottom: -500px
+        opacity: 0
+
+
