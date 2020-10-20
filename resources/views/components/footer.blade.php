@@ -10,7 +10,7 @@
                     <p class="footer__desc">
                         Тренажерный зал в Томске
                     </p>
-                    <a href="tel:" class="footer__contacts"><i class="fas fa-phone"></i> 8(952) 898-46-01</a>
+                    <a href="tel:" class="footer__contacts"><i class="fas fa-phone"></i> +7 (3822) 321-070</a>
                     <a href="#" class="footer__contacts"><i class="fas fa-map-pin"></i> ул. Елизаровых 33/1</a>
                 </div>
                 <div class="footer__column">
