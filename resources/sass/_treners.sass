@@ -3,6 +3,10 @@
     margin: 0 auto
     padding: 120px 80px
     overflow: hidden
+    @media (max-width: 768px)
+        padding: 40px 0
+
+
     // .treners__inner
 
     &__inner
@@ -28,14 +32,15 @@
     &__row
         display: flex
         justify-content: space-between
+        @media (max-width: 576px)
+            flex-direction: column
     // .treners__item
 
     &__item
         position: relative
         width: 100%
         max-width: 397px
-
-
+        margin: 0 auto
         &:hover
 
             .treners__wrap
@@ -44,7 +49,6 @@
                 left: 0
                 right: 0
                 bottom: 0
-
                 color: #fff
                 display: flex
                 align-items: center
@@ -63,15 +67,25 @@
                 z-index: 2
                 color: #ffffff
             .treners__desc
-
                 opacity: 100%
                 bottom: -20px
+
+                @media (max-width: 992px)
+                    bottom: -60px
+
+
+                @media (max-width: 576px)
+                    bottom: 25px
+                    color: #ffffff
+
             .treners__img
                 opacity: 20%
 
     &__item + &__item
         margin-left: 20px
-
+        @media (max-width: 576px)
+            margin-left: auto
+            margin-top: 20px
 
 
 

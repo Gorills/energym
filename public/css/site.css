@@ -117,6 +117,12 @@ body {
   font-family: "Blogger Sans", sans-serif;
 }
 
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+}
+
 *,
 *:before,
 *:after {
@@ -175,6 +181,12 @@ a {
   background-color: #fefefe;
 }
 
+@media (max-width: 480px) {
+  .line-bottom {
+    display: none;
+  }
+}
+
 .btn {
   display: inline-block;
   cursor: pointer;
@@ -205,6 +217,12 @@ a {
   margin-bottom: 20px;
 }
 
+@media (max-width: 576px) {
+  .title {
+    font-size: 36px;
+  }
+}
+
 .title__color {
   color: #e02d31;
 }
@@ -232,6 +250,7 @@ a {
     left: -200%;
     bottom: 0;
     width: 100%;
+    z-index: 99;
     background-color: #2b2a28;
     display: flex;
     align-items: center;
@@ -365,6 +384,13 @@ a {
   align-items: center;
 }
 
+@media (max-width: 992px) {
+  .start {
+    min-height: auto;
+    height: 100vh;
+  }
+}
+
 .start__inner {
   position: relative;
   z-index: 2;
@@ -414,9 +440,21 @@ a {
   line-height: 1;
 }
 
+@media (max-width: 576px) {
+  .start__title {
+    font-size: 40px;
+  }
+}
+
 .start__logo {
   margin-top: 20px;
   height: 50px;
+}
+
+@media (max-width: 576px) {
+  .start__logo {
+    height: 30px;
+  }
 }
 
 .start__btn {
@@ -529,6 +567,12 @@ a {
   color: #5a5a5a;
   height: 100%;
   min-height: 75px;
+}
+
+@media (max-width: 720px) {
+  .price__description {
+    min-height: auto;
+  }
 }
 
 .price__num {
@@ -698,6 +742,12 @@ a {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .treners {
+    padding: 40px 0;
+  }
+}
+
 .treners__inner {
   width: 100%;
   margin: 0 auto;
@@ -723,10 +773,17 @@ a {
   justify-content: space-between;
 }
 
+@media (max-width: 576px) {
+  .treners__row {
+    flex-direction: column;
+  }
+}
+
 .treners__item {
   position: relative;
   width: 100%;
   max-width: 397px;
+  margin: 0 auto;
 }
 
 .treners__item:hover .treners__wrap {
@@ -764,12 +821,32 @@ a {
   bottom: -20px;
 }
 
+@media (max-width: 992px) {
+  .treners__item:hover .treners__desc {
+    bottom: -60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .treners__item:hover .treners__desc {
+    bottom: 25px;
+    color: #ffffff;
+  }
+}
+
 .treners__item:hover .treners__img {
   opacity: 20%;
 }
 
 .treners__item + .treners__item {
   margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .treners__item + .treners__item {
+    margin-left: auto;
+    margin-top: 20px;
+  }
 }
 
 .treners__img-wrap {
@@ -927,10 +1004,22 @@ a {
   margin: 0 auto;
 }
 
+@media (max-width: 576px) {
+  .footer__column {
+    width: 100%;
+  }
+}
+
 .footer__column:nth-child(1) {
   padding-left: 15px;
   flex-direction: column;
   display: flex;
+}
+
+@media (max-width: 576px) {
+  .footer__column:nth-child(1) {
+    padding-left: 0;
+  }
 }
 
 .footer__column:nth-child(2) {
@@ -966,6 +1055,12 @@ a {
   height: 30px;
   margin-bottom: 40px;
   width: 233px;
+}
+
+@media (max-width: 768px) {
+  .footer__logo {
+    margin: 0 auto 40px;
+  }
 }
 
 .footer__desc {

@@ -37,11 +37,16 @@
     &__column
         width: 33.33%
         margin: 0 auto
+        @media (max-width: 576px)
+            width: 100%
+
+
         &:nth-child(1)
             padding-left: 15px
             flex-direction: column
             display: flex
-
+            @media (max-width: 576px)
+                padding-left: 0
         &:nth-child(2)
             text-align: center
             @media (max-width: 768px)
@@ -69,6 +74,9 @@
         height: 30px
         margin-bottom: 40px
         width: 233px
+
+        @media (max-width: 768px)
+            margin: 0 auto 40px
     // .footer__desc
 
     &__desc

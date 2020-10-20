@@ -1,6 +1,6 @@
 @extends('layouts.custom')
 
-@section('title', '')
+@section('title', 'Тренажерный зал EnerGym в Томске | Записаться на тренировку')
 @section('description', '')
 @section('keywords', '')
 @section('canonical', '')
