@@ -44,11 +44,18 @@
                                 <a class="header__link" href="{{ url('/') }}" itemprop="url">О нас</a>
                                 <meta itemprop="name" content="О нас" />
                             </li>
-
+                            @if($home == $_SERVER['REQUEST_URI'])
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                                <a class="header__link" href="{{ url('/#price') }}" itemprop="url">Цены</a>
+                                <a class="header__link" href="#price" itemprop="url">Цены</a>
                                 <meta itemprop="name" content="Цены" />
                             </li>
+                            @else
+                                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                                    <a class="header__link" href="{{ url('/#price') }}" itemprop="url">Цены</a>
+                                    <meta itemprop="name" content="Цены" />
+                                </li>
+                            @endif
+
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
                                 <a class="header__link" href="{{ url('/') }}" itemprop="url">Тренеры</a>
                                 <meta itemprop="name" content="Тренеры" />

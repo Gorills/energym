@@ -30,11 +30,11 @@ $(".menu-btn").click(function(e) {
 
 })
 
-// $(".header__link").click(function(e) {
-//     $(".menu-btn").removeClass('menu-btn_active');
-//     $(".header").removeClass('header--active');
-//
-// })
+$(".header__link").click(function(e) {
+    $(".menu-btn").removeClass('menu-btn_active');
+    $(".header").removeClass('header--active');
+
+})
 
 
 $('.show_popup').click(function(e) { // Вызываем функцию по нажатию на кнопку
