@@ -194,8 +194,7 @@
                     <p class="why__description">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla.</p>
 
 
-                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/0bElgWvTL0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/3qpebLCt_2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     <div class="why__wrapper">
                         <div class="why__item">
