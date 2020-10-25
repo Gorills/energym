@@ -3,8 +3,15 @@
     padding: 60px 0
     text-align: center
     color: #ffffff
-    &__inner
+    position: relative
+    overflow: hidden
 
+    &__bg
+        @include img-center
+        z-index: 1
+    &__inner
+        position: relative
+        z-index: 2
     &__opt
         text-align: start
     &__opt + &__opt

@@ -41,7 +41,7 @@
                             </li>
 
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                                <a class="header__link" href="{{ url('/') }}" itemprop="url">О нас</a>
+                                <a class="header__link" href="{{ url('/#about') }}" itemprop="url">О нас</a>
                                 <meta itemprop="name" content="О нас" />
                             </li>
                             @if($home == $_SERVER['REQUEST_URI'])
@@ -185,32 +185,33 @@
                 <div class="why__column">
                     <h2 class="title">
                         <span class="title__color">
-                            Узнайте почему <br>
+                            Тренажерный зал <br>
                         </span>
 
-                        спорт это важно.
+
+
                     </h2>
 
                     <p class="why__description">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla.</p>
 
 
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/3qpebLCt_2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{--                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/3qpebLCt_2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
 
                     <div class="why__wrapper">
                         <div class="why__item">
                             <img src="{{ URL::asset('images/why-1.jpg') }}" alt="" class="why__item-img">
                             <div class="why__item-wrapper">
-                                <h3 class="why__item-title">IMPROVEMENTS AND MEETING GOALS</h3>
-                                <p class="why__item-subtitle">Enjoy trainings and talks with new friends.</p>
-                                <p class="why__item-description">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt.</p>
+                                <h3 class="why__item-title">Занимайтесь индивидуально</h3>
+
+                                <p class="why__item-description">Помещение тренажерного зала подходит как для индивидуальных тренировок, так и для тренировок с друзьями или своим тренером.</p>
                             </div>
                         </div>
                         <div class="why__item">
                             <img src="{{ URL::asset('images/why-2.jpg') }}" alt="" class="why__item-img">
                             <div class="why__item-wrapper">
-                                <h3 class="why__item-title">IMPROVEMENTS AND MEETING GOALS</h3>
-                                <p class="why__item-subtitle">Enjoy trainings and talks with new friends.</p>
-                                <p class="why__item-description">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt.</p>
+                                <h3 class="why__item-title">Занимайтесь с тренером</h3>
+{{--                                <p class="why__item-subtitle">Enjoy trainings and talks with new friends.</p>--}}
+                                <p class="why__item-description">Наши тренеры помогут вам составить уникальную программу тренировок и питания для достижения лучших результатов. </p>
                             </div>
                         </div>
 
@@ -240,7 +241,8 @@
 
 
                 <p class="check__desc">
-                    Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla. Nam in condimentum orci. Integer ac pellentesque sem. Nulla fringilla dui id metus viverra interdum.
+                    Наш тренажерный зал находится в Кировском районе г.Томска и имеет отличныю транспортную доступность. Большое помещение с большым количеством
+                    тренажеров, удобной раздевалкой и душем придется по вкусу всем любителям комфорта.
                 </p>
                 <div class="check__row">
                     <div class="check__item">
@@ -249,7 +251,7 @@
                     </div>
 
                     <div class="check__item">
-                        <p class="check__num">50</p>
+                        <p class="check__num">200</p>
                         <p class="check__title">Квадратных метров</p>
                     </div>
                     <div class="check__item">
@@ -347,7 +349,11 @@
     </section>
 
 
-    <div class="about">
+    <div class="about" id="about">
+
+        <img src="{{ URL::asset('images/slide-6.jpg') }}" alt="" class="about__bg">
+
+
         <div class="container">
             <div class="about__inner">
                 <h2 class="title title__light">
@@ -357,90 +363,108 @@
 
                     в Томске
                 </h2>
-                <p class="about__opt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cupiditate, ducimus eius fugit nesciunt obcaecati pariatur placeat, quod quos saepe sed tenetur unde vitae. Assumenda incidunt nemo obcaecati provident quia?</p>
-                <p class="about__opt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cupiditate, ducimus eius fugit nesciunt obcaecati pariatur placeat, quod quos saepe sed tenetur unde vitae. Assumenda incidunt nemo obcaecati provident quia?</p>
-                <p class="about__opt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cupiditate, ducimus eius fugit nesciunt obcaecati pariatur placeat, quod quos saepe sed tenetur unde vitae. Assumenda incidunt nemo obcaecati provident quia?</p>
+                <p class="about__opt">
+                    Наш тренажерный зал это лучшее соотношение цены и качества предоставляемых услуг в Томске. Большое количество тренажеров и просторное помещение
+                    позволит вам чувствовать себя свобоно во время тренировок. Запишитесь к нам на тренировку!
+                </p>
+                <p class="about__opt">
+
+                </p>
+                <p class="about__opt">
+
+                </p>
 
             </div>
         </div>
     </div>
 
 
-    <div class="features">
-        <div class="container-fluid">
-            <div class="features__inner">
+{{--    <div class="features">--}}
+{{--        <div class="container-fluid">--}}
+{{--            <div class="features__inner">--}}
 
-                <div class="features__item">
-                    <img src="{{ URL::asset('images/icon/1.png') }}" alt="" class="features__icon">
+{{--                <div class="features__item">--}}
+{{--                    <img src="{{ URL::asset('images/icon/1.png') }}" alt="" class="features__icon">--}}
 
-                    <div class="features__wrap">
-                        <p class="features__title">Body sculpturing program</p>
-                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>
-                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae
-                            dignissim vel, consequat.</p>
+{{--                    <div class="features__wrap">--}}
+{{--                        <p class="features__title">Body sculpturing program</p>--}}
+{{--                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>--}}
+{{--                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae--}}
+{{--                            dignissim vel, consequat.</p>--}}
 
-                    </div>
-                </div>
-                <div class="features__item">
-                    <img src="{{ URL::asset('images/icon/2.png') }}" alt="" class="features__icon">
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="features__item">--}}
+{{--                    <img src="{{ URL::asset('images/icon/2.png') }}" alt="" class="features__icon">--}}
 
-                    <div class="features__wrap">
-                        <p class="features__title">Body sculpturing program</p>
-                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>
-                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae
-                            dignissim vel, consequat.</p>
+{{--                    <div class="features__wrap">--}}
+{{--                        <p class="features__title">Body sculpturing program</p>--}}
+{{--                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>--}}
+{{--                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae--}}
+{{--                            dignissim vel, consequat.</p>--}}
 
-                    </div>
-                </div>
-                <div class="features__item">
-                    <img src="{{ URL::asset('images/icon/3.png') }}" alt="" class="features__icon">
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="features__item">--}}
+{{--                    <img src="{{ URL::asset('images/icon/3.png') }}" alt="" class="features__icon">--}}
 
-                    <div class="features__wrap">
-                        <p class="features__title">Body sculpturing program</p>
-                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>
-                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae
-                            dignissim vel, consequat.</p>
+{{--                    <div class="features__wrap">--}}
+{{--                        <p class="features__title">Body sculpturing program</p>--}}
+{{--                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>--}}
+{{--                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae--}}
+{{--                            dignissim vel, consequat.</p>--}}
 
-                    </div>
-                </div>
-                <div class="features__item">
-                    <img src="{{ URL::asset('images/icon/4.png') }}" alt="" class="features__icon">
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="features__item">--}}
+{{--                    <img src="{{ URL::asset('images/icon/4.png') }}" alt="" class="features__icon">--}}
 
-                    <div class="features__wrap">
-                        <p class="features__title">Body sculpturing program</p>
-                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>
-                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae
-                            dignissim vel, consequat.</p>
+{{--                    <div class="features__wrap">--}}
+{{--                        <p class="features__title">Body sculpturing program</p>--}}
+{{--                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>--}}
+{{--                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae--}}
+{{--                            dignissim vel, consequat.</p>--}}
 
-                    </div>
-                </div>
-                <div class="features__item">
-                    <img src="{{ URL::asset('images/icon/5.png') }}" alt="" class="features__icon">
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="features__item">--}}
+{{--                    <img src="{{ URL::asset('images/icon/5.png') }}" alt="" class="features__icon">--}}
 
-                    <div class="features__wrap">
-                        <p class="features__title">Body sculpturing program</p>
-                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>
-                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae
-                            dignissim vel, consequat.</p>
+{{--                    <div class="features__wrap">--}}
+{{--                        <p class="features__title">Body sculpturing program</p>--}}
+{{--                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>--}}
+{{--                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae--}}
+{{--                            dignissim vel, consequat.</p>--}}
 
-                    </div>
-                </div>
-                <div class="features__item">
-                    <img src="{{ URL::asset('images/icon/6.jpg') }}" alt="" class="features__icon">
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="features__item">--}}
+{{--                    <img src="{{ URL::asset('images/icon/6.jpg') }}" alt="" class="features__icon">--}}
 
-                    <div class="features__wrap">
-                        <p class="features__title">Body sculpturing program</p>
-                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>
-                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae
-                            dignissim vel, consequat.</p>
+{{--                    <div class="features__wrap">--}}
+{{--                        <p class="features__title">Body sculpturing program</p>--}}
+{{--                        <p class="features__subtitle">Shape your muscles and stay always strong.</p>--}}
+{{--                        <p class="features__desc">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae--}}
+{{--                            dignissim vel, consequat.</p>--}}
 
-                    </div>
-                </div>
+{{--                    </div>--}}
+{{--                </div>--}}
 
 
 
-            </div>
-        </div>
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+
+
+
+    <div class="contacts">
+
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2858.7284303296387!2d84.98335527753656!3d56.4611976565304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4326eccb239f9a3b%3A0x8569d2fe80a04715!2z0KLRgNC10L3QsNC20LXRgNC90YvQuSDQl9Cw0LsgIkVORVJHWU0i!5e0!3m2!1sru!2sru!4v1603613231031!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
     </div>
 
 

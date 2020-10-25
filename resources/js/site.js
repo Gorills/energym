@@ -1,9 +1,6 @@
 
 global.jquery = global.jQuery = global.$ = require('jquery');
 
-
-
-
 $(window).scroll(function() {
     var height = $(window).scrollTop();
     var width = $(window).width();

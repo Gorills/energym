@@ -34,6 +34,8 @@
     <link rel="apple-touch-icon" sizes="144x144" href="{{URL::asset('/fav/apple-touch-icon-144x144.png')}}" />
     <link rel="apple-touch-icon" sizes="152x152" href="{{URL::asset('/fav/apple-touch-icon-152x152.png')}}" />
     <link rel="apple-touch-icon" sizes="180x180" href="{{URL::asset('/fav/apple-touch-icon-180x180.png')}}" />
+    <meta name="yandex-verification" content="3a48b645ae81e002" />
+    <meta name="google-site-verification" content="vyXQxfNIK6B1V-NjIeajgElsHBcVaaJqT0q1yB6QJNo" />
 
 </head>
 <body>
