@@ -75,6 +75,27 @@
 @endcomponent
 
 
+<script type="application/ld+json"> {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "ENERGYM",
+    "alternateName": "Energym",
+    "description": "Тренажерный зал",
+    "url": "https://www.energym-tomsk.ru/",
+
+    "legalName": "Energym",
+    "logo": "https://www.energym-tomsk.ru/images/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "RU",
+      "addressLocality": "Томск",
+      "addressRegion": "Томская область",
+      "postalCode": "634012",
+      "streetAddress": "ул. Елизаровых, 33"
+    },
+    "telephone": "+73822321070"
+  }
+</script>
 
 
 
