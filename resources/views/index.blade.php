@@ -192,7 +192,10 @@
 
                     </h2>
 
-                    <p class="why__description">Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla.</p>
+                    <p class="why__description">
+                        Один из лучших тренажерных залов в Томске с минимальными ценами за тренировки. Уютная атмосфера и большое количество тренажеров не оставят
+                        вас равнодушными, а цены за абонемент вас удивят. Приходите к нам на тренировки, мы всегда рады новым клиентам!
+                        </p>
 
 
 {{--                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/3qpebLCt_2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
