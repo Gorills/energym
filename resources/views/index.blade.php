@@ -62,15 +62,15 @@
                             </li>
 
 
-                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                                <a class="header__link" href="{{ url('/') }}" itemprop="url">Галерея</a>
-                                <meta itemprop="name" content="Цены" />
-                            </li>
+{{--                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
+{{--                                <a class="header__link" href="{{ url('/') }}" itemprop="url">Галерея</a>--}}
+{{--                                <meta itemprop="name" content="Цены" />--}}
+{{--                            </li>--}}
 
 
 
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                                <a class="header__link" href="{{ url('/') }}" itemprop="url">Контакты</a>
+                                <a class="header__link" href="{{ url('/#contacts') }}" itemprop="url">Контакты</a>
                                 <meta itemprop="name" content="Контакты" />
                             </li>
                         </ul>
@@ -459,7 +459,7 @@
 
 
 
-    <div class="contacts">
+    <div class="contacts" id="contacts">
 
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2858.7284303296387!2d84.98335527753656!3d56.4611976565304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4326eccb239f9a3b%3A0x8569d2fe80a04715!2z0KLRgNC10L3QsNC20LXRgNC90YvQuSDQl9Cw0LsgIkVORVJHWU0i!5e0!3m2!1sru!2sru!4v1603613231031!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
