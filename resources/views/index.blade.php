@@ -1,14 +1,14 @@
 @extends('layouts.custom')
 
-@section('title', 'Тренажерный зал EnerGym в Томске | Записаться на тренировку')
-@section('description', '')
-@section('keywords', '')
-@section('canonical', '')
-@section('og:title', '')
-@section('og:description', '')
-@section('og:url', '')
-@section('twitter:title', '')
-@section('twitter:description', '')
+@section('title', 'Тренажерный зал Energym в Томске | Записаться на тренировку')
+@section('description', 'Недорогой тренажерный зал в Кировском районе Томске. Большое помещение, множество тренажеров. ')
+@section('keywords', 'тренажерный зал')
+@section('canonical', 'https://www.energym-tomsk.ru/')
+@section('og:title', 'Тренажерный зал Energym в Томске | Записаться на тренировку')
+@section('og:description', 'Недорогой тренажерный зал в Кировском районе Томске. Большое помещение, множество тренажеров.')
+@section('og:url', 'https://www.energym-tomsk.ru/')
+@section('twitter:title', 'Тренажерный зал Energym в Томске | Записаться на тренировку')
+@section('twitter:description', 'Недорогой тренажерный зал в Кировском районе Томске. Большое помещение, множество тренажеров.')
 
 
 @section('content')
