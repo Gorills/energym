@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="@yield('twitter:title')" />
     <meta name="twitter:description" content="@yield('twitter:description')" />
     <link rel="shortcut icon" href="{{URL::asset('favicon.ico')}}" type="image/x-icon" />
-    <link rel="icon" type="image/png" href="{{URL::asset('favicon-32x32.png')}}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{URL::asset('/fav/favicon-32x32.png')}}" sizes="32x32">
     <link rel="apple-touch-icon" href="{{URL::asset('/fav/apple-touch-icon.png')}}" />
     <link rel="apple-touch-icon" sizes="57x57" href="{{URL::asset('/fav/apple-touch-icon-57x57.png')}}" />
     <link rel="apple-touch-icon" sizes="72x72" href="{{URL::asset('/fav/apple-touch-icon-72x72.png')}}" />
