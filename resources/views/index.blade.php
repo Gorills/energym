@@ -56,10 +56,10 @@
                                 </li>
                             @endif
 
-                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
-                                <a class="header__link" href="{{ url('/#treners') }}" itemprop="url">Тренеры</a>
-                                <meta itemprop="name" content="Тренеры" />
-                            </li>
+{{--                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
+{{--                                <a class="header__link" href="{{ url('/#treners') }}" itemprop="url">Тренеры</a>--}}
+{{--                                <meta itemprop="name" content="Тренеры" />--}}
+{{--                            </li>--}}
 
 
 {{--                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
