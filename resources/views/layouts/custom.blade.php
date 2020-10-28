@@ -50,6 +50,7 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/68671951" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <script src="//code-ya.jivosite.com/widget/BpUlTzqORA" async></script>
 </head>
 <body>
 
@@ -73,6 +74,15 @@
 @component('components.footer')
 
 @endcomponent
+
+
+@component('components.popup')
+
+@endcomponent
+
+
+
+
 
 
 <script type="application/ld+json"> {

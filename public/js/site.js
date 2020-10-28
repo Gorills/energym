@@ -11038,10 +11038,20 @@ function explode() {
 }
 
 setTimeout(explode, 10000);
-$(".action-popup__closer, .action-popup__close").click(function (e) {
+$(".action-popup__closer, .action-popup__close, .action-popup__img").click(function (e) {
   e.preventDefault();
   $(".action-popup__closer").hide();
   $(".action-popup").hide();
+});
+$(".popup--show").click(function (e) {
+  e.preventDefault();
+  $(".popup").show();
+  $(".popup__closer").show();
+});
+$(".popup__closer").click(function (e) {
+  e.preventDefault();
+  $(".popup").hide();
+  $(".popup__closer").hide();
 });
 jQuery(document).ready(function ($) {
   var url = document.location.href;

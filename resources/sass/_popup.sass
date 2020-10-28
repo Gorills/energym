@@ -1,0 +1,37 @@
+.popup
+
+    width: 100%
+    max-width: 350px
+    position: fixed
+    z-index: 100
+
+    padding: 45px 50px
+    background-color: $color-fonts-dark
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+    justify-content: center
+    align-items: center
+    display: none
+    &__inner
+        width: 60%
+        justify-content: space-between
+        margin: 0 auto
+        display: flex
+
+    &__link
+        text-decoration: none
+        color: #ffffff
+        font-size: 40px
+        display: block
+
+    &__closer
+        display: none
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background-color: rgba(43,42,40,.9)
+        z-index: 99

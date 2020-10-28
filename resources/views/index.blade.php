@@ -92,7 +92,7 @@
                     <img src="{{ URL::asset('images/logo.png') }}" alt="energym" class="start__logo">
                 </h2>
 
-                <a href="#" class="btn btn__accent start__btn ">Записаться</a>
+                <a href="#" class="btn btn__accent start__btn popup--show">Связаться</a>
 
 
             </div>
@@ -174,63 +174,6 @@
 
     </div>
 
-
-    <section class="why">
-        <div class="container">
-            <div class="why__inner">
-                <div class="why__column">
-
-
-                </div>
-                <div class="why__column">
-                    <h2 class="title">
-                        <span class="title__color">
-                            Тренажерный зал <br>
-                        </span>
-
-
-
-                    </h2>
-
-                    <p class="why__description">
-                        Один из лучших тренажерных залов в Томске с минимальными ценами за тренировки. Уютная атмосфера и большое количество тренажеров не оставят
-                        вас равнодушными, а цены за абонемент вас удивят. Приходите к нам на тренировки, мы всегда рады новым клиентам!
-                        </p>
-
-
-{{--                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/3qpebLCt_2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
-
-                    <div class="why__wrapper">
-                        <div class="why__item">
-                            <img src="{{ URL::asset('images/why-1.jpg') }}" alt="" class="why__item-img">
-                            <div class="why__item-wrapper">
-                                <h3 class="why__item-title">Занимайтесь индивидуально</h3>
-
-                                <p class="why__item-description">Помещение тренажерного зала подходит как для индивидуальных тренировок, так и для тренировок с друзьями или своим тренером.</p>
-                            </div>
-                        </div>
-                        <div class="why__item">
-                            <img src="{{ URL::asset('images/why-2.jpg') }}" alt="" class="why__item-img">
-                            <div class="why__item-wrapper">
-                                <h3 class="why__item-title">Занимайтесь с тренером</h3>
-{{--                                <p class="why__item-subtitle">Enjoy trainings and talks with new friends.</p>--}}
-                                <p class="why__item-description">Наши тренеры помогут вам составить уникальную программу тренировок и питания для достижения лучших результатов. </p>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-
-                </div>
-
-            </div>
-        </div>
-        <img src="{{ URL::asset('images/women.jpg') }}" alt="energym" class="why__img">
-    </section>
-
-
     <section class="check">
         <img src="{{ URL::asset('images/bg-2.jpg') }}" alt="energym" class="check__img">
         <div class="container">
@@ -268,93 +211,152 @@
     </section>
 
 
-    <section class="treners" id="treners">
+    <section class="why">
         <div class="container">
-            <div class="treners__inner">
-                <h2 class="treners__title">Команда наших тренеров</h2>
-                <p class="treners__subrirle">
-                    Профессиональные тренеры, которые помогут Вам составить индивидуальную программу тренировок
-                    и питания. Все для того, чтобы Ваши занятия в нашем тренажерном зале проходили результативно!
-
-                </p>
-
-                <div class="treners__row">
-
-                    <div class="treners__item">
-
-                        <div class="treners__img-wrap">
-                            <img src="{{ URL::asset('images/treners/1.jpg') }}" alt="" class="treners__img">
-                        </div>
-                        <div class="treners__wrap">
-                            <p class="treners__name">Emily Rosenberg</p>
-                            <p class="treners__type">Cardio trainer</p>
-                        </div>
+            <div class="why__inner">
+                <div class="why__column">
 
 
-                        <div class="treners__social">
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-vk"></i>
-                            </a>
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                        </div>
-
-                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>
-
-                    </div>
-                    <div class="treners__item">
-                        <div class="treners__img-wrap">
-                            <img src="{{ URL::asset('images/treners/2.jpg') }}" alt="" class="treners__img">
-                        </div>
-                        <div class="treners__wrap">
-                            <p class="treners__name">Emily Rosenberg</p>
-                            <p class="treners__type">Cardio trainer</p>
-                        </div>
-                        <div class="treners__social">
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-vk"></i>
-                            </a>
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                        </div>
-
-                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>
-
-                    </div>
-                    <div class="treners__item">
-                        <div class="treners__img-wrap">
-                            <img src="{{ URL::asset('images/treners/3.jpg') }}" alt="" class="treners__img">
-                        </div>
-                        <div class="treners__wrap">
-                            <p class="treners__name">Emily Rosenberg</p>
-                            <p class="treners__type">Cardio trainer</p>
-                        </div>
-                        <div class="treners__social">
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-vk"></i>
-                            </a>
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-
-                        </div>
-
-                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>
-
-                    </div>
                 </div>
+                <div class="why__column">
+                    <h2 class="title">
+                        <span class="title__color">
+                            Тренажерный зал <br>
+                        </span>
+
+
+
+                    </h2>
+
+                    <p class="why__description">
+                        Один из лучших тренажерных залов в Томске с минимальными ценами за тренировки. Уютная атмосфера и большое количество тренажеров не оставят
+                        вас равнодушными, а цены за абонемент вас удивят. Приходите к нам на тренировки, мы всегда рады новым клиентам!
+                        </p>
+
+
+{{--                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/3qpebLCt_2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
+
+                    <div class="why__wrapper">
+                        <div class="why__item">
+                            <img src="{{ URL::asset('images/why-1.jpg') }}" alt="тренажерный зал в Томске" class="why__item-img">
+                            <div class="why__item-wrapper">
+                                <h3 class="why__item-title">Занимайтесь индивидуально</h3>
+
+                                <p class="why__item-description">Помещение тренажерного зала подходит как для индивидуальных тренировок, так и для тренировок с друзьями или своим тренером.</p>
+                            </div>
+                        </div>
+                        <div class="why__item">
+                            <img src="{{ URL::asset('images/why-2.jpg') }}" alt="Energym Томск" class="why__item-img">
+                            <div class="why__item-wrapper">
+                                <h3 class="why__item-title">Занимайтесь с тренером</h3>
+{{--                                <p class="why__item-subtitle">Enjoy trainings and talks with new friends.</p>--}}
+                                <p class="why__item-description">Наши тренеры помогут вам составить уникальную программу тренировок и питания для достижения лучших результатов. </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
             </div>
         </div>
+        <img src="{{ URL::asset('images/women.jpg') }}" alt="energym" class="why__img">
     </section>
+
+
+
+
+
+{{--    <section class="treners" id="treners">--}}
+{{--        <div class="container">--}}
+{{--            <div class="treners__inner">--}}
+{{--                <h2 class="treners__title">Команда наших тренеров</h2>--}}
+{{--                <p class="treners__subrirle">--}}
+{{--                    Профессиональные тренеры, которые помогут Вам составить индивидуальную программу тренировок--}}
+{{--                    и питания. Все для того, чтобы Ваши занятия в нашем тренажерном зале проходили результативно!--}}
+
+{{--                </p>--}}
+
+{{--                <div class="treners__row">--}}
+
+{{--                    <div class="treners__item">--}}
+
+{{--                        <div class="treners__img-wrap">--}}
+{{--                            <img src="{{ URL::asset('images/treners/1.jpg') }}" alt="" class="treners__img">--}}
+{{--                        </div>--}}
+{{--                        <div class="treners__wrap">--}}
+{{--                            <p class="treners__name">Emily Rosenberg</p>--}}
+{{--                            <p class="treners__type">Cardio trainer</p>--}}
+{{--                        </div>--}}
+
+
+{{--                        <div class="treners__social">--}}
+{{--                            <a href="#" class="treners__social-item">--}}
+{{--                                <i class="fab fa-vk"></i>--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="treners__social-item">--}}
+{{--                                <i class="fab fa-instagram"></i>--}}
+{{--                            </a>--}}
+
+{{--                        </div>--}}
+
+{{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
+
+{{--                    </div>--}}
+{{--                    <div class="treners__item">--}}
+{{--                        <div class="treners__img-wrap">--}}
+{{--                            <img src="{{ URL::asset('images/treners/2.jpg') }}" alt="" class="treners__img">--}}
+{{--                        </div>--}}
+{{--                        <div class="treners__wrap">--}}
+{{--                            <p class="treners__name">Emily Rosenberg</p>--}}
+{{--                            <p class="treners__type">Cardio trainer</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="treners__social">--}}
+{{--                            <a href="#" class="treners__social-item">--}}
+{{--                                <i class="fab fa-vk"></i>--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="treners__social-item">--}}
+{{--                                <i class="fab fa-instagram"></i>--}}
+{{--                            </a>--}}
+
+{{--                        </div>--}}
+
+{{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
+
+{{--                    </div>--}}
+{{--                    <div class="treners__item">--}}
+{{--                        <div class="treners__img-wrap">--}}
+{{--                            <img src="{{ URL::asset('images/treners/3.jpg') }}" alt="" class="treners__img">--}}
+{{--                        </div>--}}
+{{--                        <div class="treners__wrap">--}}
+{{--                            <p class="treners__name">Emily Rosenberg</p>--}}
+{{--                            <p class="treners__type">Cardio trainer</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="treners__social">--}}
+{{--                            <a href="#" class="treners__social-item">--}}
+{{--                                <i class="fab fa-vk"></i>--}}
+{{--                            </a>--}}
+{{--                            <a href="#" class="treners__social-item">--}}
+{{--                                <i class="fab fa-instagram"></i>--}}
+{{--                            </a>--}}
+
+{{--                        </div>--}}
+
+{{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
+
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
     <div class="about" id="about">
 
-        <img src="{{ URL::asset('images/slide-6.jpg') }}" alt="" class="about__bg">
+        <img src="{{ URL::asset('images/slide-6.jpg') }}" alt="тренажерный зал в Томске" class="about__bg">
 
 
         <div class="container">
@@ -474,7 +476,7 @@
 
 
     <div class="action-popup">
-        <img src="{{ URL::asset('images/popup.jpg') }}" alt="" class="action-popup__img">
+        <img src="{{ URL::asset('images/popup.jpg') }}" alt="акция для студентов при посещении тренажерного зала" class="action-popup__img">
 
         <a class="action-popup__close" href="#"><i class="fas fa-times action-popup__icon"></i></a>
 
