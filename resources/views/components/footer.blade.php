@@ -23,7 +23,7 @@
                             <li class="footer__item"><a href="{{url('/#price')}}" class="footer__link">Цены</a></li>
 
                             <li class="footer__item"><a href="{{url('/#treners')}}" class="footer__link">Тренеры</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Галерея</a></li>
+{{--                            <li class="footer__item"><a href="#" class="footer__link">Галерея</a></li>--}}
                             <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
                         </ul>
                     </nav>

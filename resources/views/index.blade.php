@@ -56,10 +56,10 @@
                                 </li>
                             @endif
 
-{{--                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
-{{--                                <a class="header__link" href="{{ url('/#treners') }}" itemprop="url">Тренеры</a>--}}
-{{--                                <meta itemprop="name" content="Тренеры" />--}}
-{{--                            </li>--}}
+                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                                <a class="header__link" href="{{ url('/#treners') }}" itemprop="url">Тренеры</a>
+                                <meta itemprop="name" content="Тренеры" />
+                            </li>
 
 
 {{--                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">--}}
@@ -270,42 +270,45 @@
 
 
 
-{{--    <section class="treners" id="treners">--}}
-{{--        <div class="container">--}}
-{{--            <div class="treners__inner">--}}
-{{--                <h2 class="treners__title">Команда наших тренеров</h2>--}}
-{{--                <p class="treners__subrirle">--}}
-{{--                    Профессиональные тренеры, которые помогут Вам составить индивидуальную программу тренировок--}}
-{{--                    и питания. Все для того, чтобы Ваши занятия в нашем тренажерном зале проходили результативно!--}}
+    <section class="treners" id="treners">
+        <div class="container">
+            <div class="treners__inner">
+                <h2 class="treners__title">Наши тренеры</h2>
+                <p class="treners__subrirle">
+                    Профессиональные тренеры, которые помогут Вам составить индивидуальную программу тренировок
+                    и питания. Все для того, чтобы Ваши занятия в нашем тренажерном зале проходили результативно!
 
-{{--                </p>--}}
+                </p>
 
-{{--                <div class="treners__row">--}}
+                <div class="treners__row">
 
-{{--                    <div class="treners__item">--}}
+                    <div class="treners__item">
 
-{{--                        <div class="treners__img-wrap">--}}
-{{--                            <img src="{{ URL::asset('images/treners/1.jpg') }}" alt="" class="treners__img">--}}
-{{--                        </div>--}}
-{{--                        <div class="treners__wrap">--}}
-{{--                            <p class="treners__name">Emily Rosenberg</p>--}}
-{{--                            <p class="treners__type">Cardio trainer</p>--}}
-{{--                        </div>--}}
+                        <div class="treners__img-wrap">
+                            <img src="{{ URL::asset('images/treners/1.jpg') }}" alt="" class="treners__img">
+                        </div>
+                        <div class="treners__wrap">
+                            <p class="treners__name">Михаил Фирсов</p>
+                            <p class="treners__type">Персональный тренер</p>
+                        </div>
 
 
-{{--                        <div class="treners__social">--}}
-{{--                            <a href="#" class="treners__social-item">--}}
-{{--                                <i class="fab fa-vk"></i>--}}
-{{--                            </a>--}}
-{{--                            <a href="#" class="treners__social-item">--}}
-{{--                                <i class="fab fa-instagram"></i>--}}
-{{--                            </a>--}}
+                        <div class="treners__social">
+                            <a href="https://vk.com/mishafirsov1" class="treners__social-item" target="_blank">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="https://www.instagram.com/mishafirsov/?hl=ru" class="treners__social-item" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
 
-{{--                        </div>--}}
+                        </div>
 
-{{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
+                        <p class="treners__desc">Мастер спорта международного класса по жиму штанги лёжа в федерации СПР. Победитель чемпионата России и кубка Мира по жиму штанги (2018 г.).
 
-{{--                    </div>--}}
+                        </p>
+
+                    </div>
+
 {{--                    <div class="treners__item">--}}
 {{--                        <div class="treners__img-wrap">--}}
 {{--                            <img src="{{ URL::asset('images/treners/2.jpg') }}" alt="" class="treners__img">--}}
@@ -348,10 +351,10 @@
 {{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
 
 {{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <div class="about" id="about">
