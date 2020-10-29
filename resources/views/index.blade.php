@@ -314,7 +314,7 @@
                             <img src="{{ URL::asset('images/treners/3.jpeg') }}" alt="" class="treners__img">
                         </div>
                         <div class="treners__wrap">
-                            <p class="treners__name">Калинина Анастасия</p>
+                            <p class="treners__name">Анастасия Калинина</p>
                             <p class="treners__type">Персональный тренер</p>
                         </div>
                         <div class="treners__social">
