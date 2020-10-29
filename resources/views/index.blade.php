@@ -1,13 +1,13 @@
 @extends('layouts.custom')
 
-@section('title', 'Тренажерный зал Energym в Томске | Записаться на тренировку')
+@section('title', 'Тренажерный зал Energym в Томске | Фитнес-клуб в Томске')
 @section('description', 'Недорогой тренажерный зал в Кировском районе Томска. Большое помещение, множество тренажеров. ')
-@section('keywords', 'тренажерный зал')
+@section('keywords', 'тренажерный зал, качалка томск, тренажерка, энерджим, энержим')
 @section('canonical', 'https://www.energym-tomsk.ru/')
-@section('og:title', 'Тренажерный зал Energym в Томске | Записаться на тренировку')
+@section('og:title', 'Тренажерный зал Energym в Томске | Фитнес-клуб в Томске')
 @section('og:description', 'Недорогой тренажерный зал в Кировском районе Томска. Большое помещение, множество тренажеров.')
 @section('og:url', 'https://www.energym-tomsk.ru/')
-@section('twitter:title', 'Тренажерный зал Energym в Томске | Записаться на тренировку')
+@section('twitter:title', 'Тренажерный зал Energym в Томске | Фитнес-клуб в Томске')
 @section('twitter:description', 'Недорогой тренажерный зал в Кировском районе Томска. Большое помещение, множество тренажеров.')
 
 
@@ -311,6 +311,33 @@
 
                     <div class="treners__item">
                         <div class="treners__img-wrap">
+                            <img src="{{ URL::asset('images/treners/3.jpeg') }}" alt="" class="treners__img">
+                        </div>
+                        <div class="treners__wrap">
+                            <p class="treners__name">Калинина Анастасия</p>
+                            <p class="treners__type">Персональный тренер</p>
+                        </div>
+                        <div class="treners__social">
+                            <a href="#" class="treners__social-item">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="#" class="treners__social-item">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                        </div>
+
+                        <p class="treners__desc">
+                            Проходила обучение в колледже Бена Вейдера город Москва, по направлениям:
+                            «Постуральный фитнес и коррекция осанки»; «Базовый рацион»; «Нутрицевтики»; «Гормоны и адаптация»
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="treners__item">
+                        <div class="treners__img-wrap">
                             <img src="{{ URL::asset('images/treners/2.jpeg') }}" alt="" class="treners__img">
                         </div>
                         <div class="treners__wrap">
@@ -334,31 +361,7 @@
 
                     </div>
 
-                    <div class="treners__item">
-                        <div class="treners__img-wrap">
-                            <img src="{{ URL::asset('images/treners/3.jpeg') }}" alt="" class="treners__img">
-                        </div>
-                        <div class="treners__wrap">
-                            <p class="treners__name">Калинина Анастасия</p>
-                            <p class="treners__type">Персональный тренер</p>
-                        </div>
-                        <div class="treners__social">
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-vk"></i>
-                            </a>
-                            <a href="#" class="treners__social-item">
-                                <i class="fab fa-instagram"></i>
-                            </a>
 
-                        </div>
-
-                        <p class="treners__desc">
-                            Проходила обучение в колледже Бена Вейдера город Москва, по направлениям :
-                            «Постуральный фитнес и коррекция осанки»; «Базовый рацион»; «Нутрицевтики»; «Гормоны и адаптация»
-
-                        </p>
-
-                    </div>
                 </div>
             </div>
         </div>
@@ -381,7 +384,7 @@
                 </h2>
                 <p class="about__opt">
                     Наш тренажерный зал это лучшее соотношение цены и качества предоставляемых услуг в Томске. Большое количество тренажеров и просторное помещение
-                    позволит вам чувствовать себя свобоно во время тренировок. Запишитесь к нам на тренировку!
+                    позволит вам чувствовать себя свободно во время тренировок. Приходите тренироваться к нам и вы почувствуете прилив энергии и жизненных сил!
                 </p>
                 <p class="about__opt">
 
@@ -477,9 +480,7 @@
 
     <div class="contacts" id="contacts">
 
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2858.7284303296387!2d84.98335527753656!3d56.4611976565304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4326eccb239f9a3b%3A0x8569d2fe80a04715!2z0KLRgNC10L3QsNC20LXRgNC90YvQuSDQl9Cw0LsgIkVORVJHWU0i!5e0!3m2!1sru!2sru!4v1603613231031!5m2!1sru!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A54814eb21187dd29a5df9cc1f05e53d01d85c321b915f0d46eca7194c58d7924&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
 
     </div>
 
