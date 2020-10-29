@@ -314,14 +314,14 @@
                             <img src="{{ URL::asset('images/treners/3.jpeg') }}" alt="" class="treners__img">
                         </div>
                         <div class="treners__wrap">
-                            <p class="treners__name">Калинина Анастасия</p>
+                            <p class="treners__name">Калинкина Анастасия</p>
                             <p class="treners__type">Персональный тренер</p>
                         </div>
                         <div class="treners__social">
-                            <a href="#" class="treners__social-item">
+                            <a href="https://vk.com/klosmos" class="treners__social-item">
                                 <i class="fab fa-vk"></i>
                             </a>
-                            <a href="#" class="treners__social-item">
+                            <a href="https://www.instagram.com/klosmos/" class="treners__social-item">
                                 <i class="fab fa-instagram"></i>
                             </a>
 
