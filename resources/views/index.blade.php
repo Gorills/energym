@@ -314,14 +314,14 @@
                             <img src="{{ URL::asset('images/treners/2.jpeg') }}" alt="" class="treners__img">
                         </div>
                         <div class="treners__wrap">
-                            <p class="treners__name">Валерия</p>
+                            <p class="treners__name">Валерия Перова</p>
                             <p class="treners__type">Персональный тренер</p>
                         </div>
                         <div class="treners__social">
-                            <a href="#" class="treners__social-item">
+                            <a href="https://vk.com/valeria_perova22" class="treners__social-item">
                                 <i class="fab fa-vk"></i>
                             </a>
-                            <a href="#" class="treners__social-item">
+                            <a href="https://www.instagram.com/valeria_p______/" class="treners__social-item">
                                 <i class="fab fa-instagram"></i>
                             </a>
 
@@ -336,7 +336,7 @@
 
                     <div class="treners__item">
                         <div class="treners__img-wrap">
-                            <img src="{{ URL::asset('images/treners/3.jpg') }}" alt="" class="treners__img">
+                            <img src="{{ URL::asset('images/treners/3.jpeg') }}" alt="" class="treners__img">
                         </div>
                         <div class="treners__wrap">
                             <p class="treners__name">Калинина Анастасия</p>
@@ -352,7 +352,7 @@
 
                         </div>
 
-                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>
+                        <p class="treners__desc"></p>
 
                     </div>
                 </div>
