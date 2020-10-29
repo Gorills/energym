@@ -486,13 +486,13 @@
 
 
 
-    <div class="action-popup">
-        <img src="{{ URL::asset('images/popup.jpg') }}" alt="акция для студентов при посещении тренажерного зала" class="action-popup__img">
+{{--    <div class="action-popup">--}}
+{{--        <img src="{{ URL::asset('images/popup.jpg') }}" alt="акция для студентов при посещении тренажерного зала" class="action-popup__img">--}}
 
-        <a class="action-popup__close" href="#"><i class="fas fa-times action-popup__icon"></i></a>
+{{--        <a class="action-popup__close" href="#"><i class="fas fa-times action-popup__icon"></i></a>--}}
 
-    </div>
-    <div class="action-popup__closer"></div>
+{{--    </div>--}}
+{{--    <div class="action-popup__closer"></div>--}}
 
 
 @endsection

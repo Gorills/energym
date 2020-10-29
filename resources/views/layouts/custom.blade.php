@@ -111,7 +111,7 @@
 
 
 {{--<style src="{{ URL::asset('js/app.js') }}"></style>--}}
-<script src="{{ URL::asset('js/site.js?').('v.1.0.6') }} "></script>
+<script src="{{ URL::asset('js/site.js?').('v.1.0.8') }} "></script>
 
 
 </body>

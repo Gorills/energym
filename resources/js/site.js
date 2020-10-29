@@ -43,12 +43,12 @@ function explode(){
 }
 setTimeout(explode, 10000);
 
-$(".action-popup__closer, .action-popup__close, .action-popup__img").click(function(e) {
-    e.preventDefault();
-    $(".action-popup__closer").hide();
-    $(".action-popup").hide();
-
-})
+// $(".action-popup__closer, .action-popup__close, .action-popup__img").click(function(e) {
+//     e.preventDefault();
+//     $(".action-popup__closer").hide();
+//     $(".action-popup").hide();
+//
+// })
 
 $(".popup--show").click(function(e) {
     e.preventDefault();
