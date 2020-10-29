@@ -285,7 +285,7 @@
                     <div class="treners__item">
 
                         <div class="treners__img-wrap">
-                            <img src="{{ URL::asset('images/treners/1.jpg') }}" alt="" class="treners__img">
+                            <img src="{{ URL::asset('images/treners/1.jpg') }}" alt="Михаил Фирсов тренер" class="treners__img">
                         </div>
                         <div class="treners__wrap">
                             <p class="treners__name">Михаил Фирсов</p>
@@ -309,48 +309,52 @@
 
                     </div>
 
-{{--                    <div class="treners__item">--}}
-{{--                        <div class="treners__img-wrap">--}}
-{{--                            <img src="{{ URL::asset('images/treners/2.jpg') }}" alt="" class="treners__img">--}}
-{{--                        </div>--}}
-{{--                        <div class="treners__wrap">--}}
-{{--                            <p class="treners__name">Emily Rosenberg</p>--}}
-{{--                            <p class="treners__type">Cardio trainer</p>--}}
-{{--                        </div>--}}
-{{--                        <div class="treners__social">--}}
-{{--                            <a href="#" class="treners__social-item">--}}
-{{--                                <i class="fab fa-vk"></i>--}}
-{{--                            </a>--}}
-{{--                            <a href="#" class="treners__social-item">--}}
-{{--                                <i class="fab fa-instagram"></i>--}}
-{{--                            </a>--}}
+                    <div class="treners__item">
+                        <div class="treners__img-wrap">
+                            <img src="{{ URL::asset('images/treners/2.jpeg') }}" alt="" class="treners__img">
+                        </div>
+                        <div class="treners__wrap">
+                            <p class="treners__name">Валерия</p>
+                            <p class="treners__type">Персональный тренер</p>
+                        </div>
+                        <div class="treners__social">
+                            <a href="#" class="treners__social-item">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="#" class="treners__social-item">
+                                <i class="fab fa-instagram"></i>
+                            </a>
 
-{{--                        </div>--}}
+                        </div>
 
-{{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
+                        <p class="treners__desc">
+                            Проходила обучение в колледже Бена Вейдера город Москва, по направлениям : «Постуральный фитнес и коррекция осанки»; «Базовый рацион»; «Нутрицевтики»; «Гормоны и адаптация»
 
-{{--                    </div>--}}
-{{--                    <div class="treners__item">--}}
-{{--                        <div class="treners__img-wrap">--}}
-{{--                            <img src="{{ URL::asset('images/treners/3.jpg') }}" alt="" class="treners__img">--}}
-{{--                        </div>--}}
-{{--                        <div class="treners__wrap">--}}
-{{--                            <p class="treners__name">Emily Rosenberg</p>--}}
-{{--                            <p class="treners__type">Cardio trainer</p>--}}
-{{--                        </div>--}}
-{{--                        <div class="treners__social">--}}
-{{--                            <a href="#" class="treners__social-item">--}}
-{{--                                <i class="fab fa-vk"></i>--}}
-{{--                            </a>--}}
-{{--                            <a href="#" class="treners__social-item">--}}
-{{--                                <i class="fab fa-instagram"></i>--}}
-{{--                            </a>--}}
+                        </p>
 
-{{--                        </div>--}}
+                    </div>
 
-{{--                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>--}}
+                    <div class="treners__item">
+                        <div class="treners__img-wrap">
+                            <img src="{{ URL::asset('images/treners/3.jpg') }}" alt="" class="treners__img">
+                        </div>
+                        <div class="treners__wrap">
+                            <p class="treners__name">Калинина Анастасия</p>
+                            <p class="treners__type">Персональный тренер</p>
+                        </div>
+                        <div class="treners__social">
+                            <a href="#" class="treners__social-item">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="#" class="treners__social-item">
+                                <i class="fab fa-instagram"></i>
+                            </a>
 
-{{--                    </div>--}}
+                        </div>
+
+                        <p class="treners__desc">Nulla elementum vitae odio non sollicitudin. Nullam nec augue dui. Curabitur ullamcorper interdum mi, nec laoreet nisi varius et.</p>
+
+                    </div>
                 </div>
             </div>
         </div>

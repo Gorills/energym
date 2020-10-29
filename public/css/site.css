@@ -775,11 +775,11 @@ a {
 .treners {
   width: 100%;
   margin: 0 auto;
-  padding: 120px 80px;
+  padding: 120px 80px 180px;
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .treners {
     padding: 40px 0;
   }
@@ -810,7 +810,7 @@ a {
   justify-content: space-between;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .treners__row {
     flex-direction: column;
   }
@@ -834,6 +834,7 @@ a {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  transform: none;
 }
 
 .treners__item:hover .treners__wrap .treners__type {
@@ -855,16 +856,10 @@ a {
 
 .treners__item:hover .treners__desc {
   opacity: 100%;
-  bottom: -65px;
+  bottom: -100px;
 }
 
 @media (max-width: 992px) {
-  .treners__item:hover .treners__desc {
-    bottom: -60px;
-  }
-}
-
-@media (max-width: 576px) {
   .treners__item:hover .treners__desc {
     bottom: 25px;
     color: #ffffff;
@@ -879,10 +874,10 @@ a {
   margin-left: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .treners__item + .treners__item {
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 }
 
@@ -892,6 +887,7 @@ a {
   width: 100%;
   height: 537px;
   margin-bottom: 20px;
+  transition: all 0.5s ease;
 }
 
 .treners__img {
@@ -904,6 +900,13 @@ a {
   width: 100%;
   height: 100%;
   transition: all 0.5s ease;
+}
+
+.treners__wrap {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .treners__name {
