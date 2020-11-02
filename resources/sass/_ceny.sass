@@ -1,0 +1,73 @@
+.ceny
+    width: 100%
+    margin:  0 auto
+    position: relative
+    padding: 60px 0
+    background-color: $backgroung-dark
+    color: #ffffff
+    // .ceny__bg
+
+    &__bg
+        @include img-center
+        filter: blur(2px)
+        opacity: 30%
+        z-index: 1
+    // .ceny__inner
+
+    &__inner
+        position: relative
+        z-index: 2
+    // .ceny__title
+
+    &__title
+        text-align: center
+        margin-bottom: 40px
+        font-family: "Blogger Sans", sans-serif
+        font-style: italic
+        font-size: 35px
+     
+     
+        text-transform: uppercase
+
+    // .ceny__item
+
+    &__item
+        display: flex
+        width: 100%
+        justify-content: space-between
+        min-height: 66px
+
+    &__item + &__item
+        margin-top: 40px
+    // .ceny__wrap
+
+    &__wrap
+
+
+    // .ceny__item-title
+
+    &__item-title
+        font-weight: 700
+        font-size: 26px
+        @media screen and ( max-width: 480px )
+            font-size: 18px 
+            
+    // .ceny__desc
+
+    &__desc
+        font-style: italic
+
+    // .ceny__num
+
+    &__num
+        font-weight: 700
+        width: 120px
+        text-align: center
+        padding: 5px 20px
+        height: 30px
+        background-color: $accent-color
+        line-height: 1
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%)

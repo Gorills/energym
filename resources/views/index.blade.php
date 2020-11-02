@@ -105,7 +105,8 @@
 
 
 
-    <div class="price" id="price">
+
+    <section class="price">
 
             <div class="price__inner">
 
@@ -172,7 +173,7 @@
 
             </div>
 
-    </div>
+    </section>
 
     <section class="check">
         <img src="{{ URL::asset('images/bg-2.jpg') }}" alt="energym" class="check__img">
@@ -266,6 +267,78 @@
         <img src="{{ URL::asset('images/women.jpg') }}" alt="energym" class="why__img">
     </section>
 
+
+
+
+    <div class="ceny" id="price">
+
+        <img src="{{  URL::asset('images/ceny-bg.jpg') }}" alt="" class="ceny__bg">
+
+        <div class="container">
+            <div class="ceny__inner">
+                <h2 class="ceny__title">Прайс-лист</h2>
+
+                <div class="ceny__item">
+                    <div class="ceny__wrap">
+                        <p class="ceny__item-title">Разовое посещение</p>
+                        <div class="ceny__desc"></div>
+
+                    </div>
+                    <div class="ceny__num">
+                        200.-
+                    </div>
+
+                </div>
+                <div class="ceny__item">
+                    <div class="ceny__wrap">
+                        <p class="ceny__item-title">Абонемент "Утренний"</p>
+                        <div class="ceny__desc">12 занятий / с 10.00 до 17.00</div>
+
+                    </div>
+                    <div class="ceny__num">
+                        1000.-
+                    </div>
+
+                </div>
+                <div class="ceny__item">
+                    <div class="ceny__wrap">
+                        <p class="ceny__item-title">Абонемент "Вечерний"</p>
+                        <div class="ceny__desc">12 занятий / с 17.00 до 22.00</div>
+
+                    </div>
+                    <div class="ceny__num">
+                        1500.-
+                    </div>
+
+                </div>
+                <div class="ceny__item">
+                    <div class="ceny__wrap">
+                        <p class="ceny__item-title">Абонемент "Студенческий"</p>
+                        <div class="ceny__desc">12 занятий / с 10.00 до 22.00</div>
+
+                    </div>
+                    <div class="ceny__num">
+                        1200.-
+                    </div>
+
+                </div>
+                <div class="ceny__item">
+                    <div class="ceny__wrap">
+                        <p class="ceny__item-title">Абонемент "Безлимитный"</p>
+                        <div class="ceny__desc">1 месяц / без ограничений</div>
+
+                    </div>
+                    <div class="ceny__num">
+                        2000.-
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
 
 
 
