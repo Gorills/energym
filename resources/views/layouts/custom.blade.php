@@ -16,7 +16,7 @@
     <meta property="og:description" content="@yield('og:description')" />
     <meta property="og:url" content="@yield('og:url')" />
     <meta name="theme-color" content="#2b2a28">
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="energym-tomsk.ru" />
     <meta property="vk:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta property="og:image" content="{{ URL::asset('images/og.jpg') }}" />
     <meta property="og:image" content="{{ URL::asset('images/og-mess.jpg') }}" />
@@ -106,6 +106,9 @@
     "telephone": "+73822321070"
   }
 </script>
+
+
+
 
 
 

@@ -155,7 +155,7 @@
 
 
                     <p class="price__description">Абонемент «студенческий» <br> 12 занятий
-                        с 17.00 до 22.00</p>
+                        с 10.00 до 22.00</p>
                     <p class="price__num">1200 руб / месяц</p>
                 </div>
                 <div class="price__item">
