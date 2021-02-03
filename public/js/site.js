@@ -11081,7 +11081,7 @@ jQuery(document).ready(function ($) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/gorills/project/gym/resources/js/site.js */"./resources/js/site.js");
+module.exports = __webpack_require__(/*! /home/gorills/project/laravel/energym/resources/js/site.js */"./resources/js/site.js");
 
 
 /***/ })

@@ -1452,3 +1452,46 @@ a {
           clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
+.action {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.action__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.action__row {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .action__row {
+    flex-direction: column;
+  }
+}
+
+.action__item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.action__item + .action__item {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .action__item + .action__item {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.action__img {
+  width: 100%;
+}
+

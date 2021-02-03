@@ -39,6 +39,10 @@
                                 <a class="header__link" href="{{ url('/') }}" itemprop="url">Главная</a>
                                 <meta itemprop="name" content="Главная" />
                             </li>
+                            <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
+                                <a class="header__link" href="{{ url('/#actions') }}" itemprop="url">Акции</a>
+                                <meta itemprop="name" content="Акции" />
+                            </li>
 
                             <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList">
                                 <a class="header__link" href="{{ url('/#about') }}" itemprop="url">О нас</a>
@@ -172,7 +176,28 @@
                 </div>
 
             </div>
+    </section>
 
+
+    <section class="action" id="actions">
+        <div class="container">
+            <div class="action__inner">
+                <h2 class="title">
+                   Акции
+                </h2>
+                <div class="action__row">
+                    <div class="action__item">
+                        <img src="{{ URL::asset('images/actions/23.jpg') }}" alt="акции energym" class="action__img">
+                    </div>
+                    <div class="action__item">
+                        <img src="{{ URL::asset('images/actions/students.jpg') }}" alt="акции energym" class="action__img">
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
     </section>
 
     <section class="check">
